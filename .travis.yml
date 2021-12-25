@@ -1,0 +1,8 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t kandarpparikh/node .
+  - docker images kandarpparikh/node
